@@ -9,4 +9,10 @@ export class AppComponent {
   title = 'my-first-app';
   imgUrl= "../assets/logo.jpg"
   message: String='hello from bridgelabz'
+
+  onClick(event:any)
+  {
+    console.log(event)
+    window.open("https://www.bridgelabz.com")
+  }
 }
