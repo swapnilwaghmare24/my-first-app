@@ -3,6 +3,7 @@
 <img [src]="imgUrl" (click)="onClick($event)"/>
 </div>
 <div>
-    <input type="text" [(ngModel)]="userName"/>
+    <input type="text" (input)="onInput($event)" [(ngModel)]="userName"/>
+    <p>{{this.errorMsg}}</p>
 </div>
 <!-- <app-demo></app-demo> -->
