@@ -1,4 +1,8 @@
-<h1>hello from bridgelabz</h1>
+<div><h1>hello {{this.userName}} from bridgelabz</h1>
 <h1>{{message}}</h1>
 <img [src]="imgUrl" (click)="onClick($event)"/>
-<app-demo></app-demo>
+</div>
+<div>
+    <input type="text" [(ngModel)]="userName"/>
+</div>
+<!-- <app-demo></app-demo> -->
