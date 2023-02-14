@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'my-first-app';
   imgUrl= "../assets/logo.jpg"
   message: String='hello from bridgelabz'
+  userName:String=""
 
   onClick(event:any)
   {
